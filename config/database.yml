@@ -1,5 +1,13 @@
 development:
   adapter: postgresql
   host: localhost
-  username: felixpomerantz
+  username: fpomerantz
+  password: 
+  database: app-dev
+
+test:
+  adapter: postgresql
+  host: localhost
+  username: fpomerantz
+  password: 
   database: app-dev
